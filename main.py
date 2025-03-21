@@ -83,7 +83,7 @@ class MainWindow(QMainWindow):
     def load_data(self):
         connection = DatabaseConnection().connect()
         cursor = connection.cursor()
-        result = cursor.execute("SELECT * FROM students")
+        cursor.execute("SELECT * FROM students")
         result = cursor.fetchall()
         self.table.setRowCount(0)
         for row_number, row_data in enumerate(result):
