@@ -1,6 +1,7 @@
 # Student Management System
 ## Description
-A fully functional Student Management System with a PyQt-based graphical user interface. Users will be able to effortlessly manage student data, including insertion, searching, editing, and deletion of records.
+A fully functional Student Management System with a PyQt-based graphical user interface. Users will be able to effortlessly manage student data, including insertion, searching, editing, and deletion of records. </br>
+A database run on MySQL server.
 
 ## Tools & Library Used
 ![Static Badge](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
